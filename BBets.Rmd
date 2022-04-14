@@ -44,6 +44,9 @@ hist(profit)
 According to the histogram of profit, the fair odds for a bet on matching birthdays in a 35 person class was found to be 4.4. Essentially, this is the value where the histogram was centered at zero, indicating that no money is being made.
 
 2. For what size class is a 2:1 odds bet fair.
+
+For this, we will mess around with the class size until we get Brownlow's profit to turn out to be fair.
+
 3. How much money would Brownlow be expected to end up with if the bets went as described.
 
 
