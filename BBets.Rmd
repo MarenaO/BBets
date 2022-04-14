@@ -62,6 +62,19 @@ According to the histogram of profit, the class size should be around the range 
 
 For this, we want to know how to get a 95% confidence interval for how much money Brownlow would make by doing it this way.
 
+```{r}
+profit=as.numeric()
+for(i in 1:1000){
+profit[i]=BrLw()  
+}
+hist(profit)
+sprofit <- sort(profit)
+print (sprofit[25])
+print (sprofit[975])
+```
+
+According to the histogram of profit, there is a 95% confidence interval of what the profit was. It is somewhere between 223 on the low end and 340 on the high end.
+
 ## Our strategy is to build a Function and the use it to answer the three questions. 
 
 The function will be given a class_size by number of students, odds, and Number_of_times brownlow made the bet.  It will give you back how much Brownlows earnings were. We will use it to answer our three questions below. If you can, improve this function by giving default values to some of its inputs. 
