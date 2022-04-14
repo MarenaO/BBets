@@ -47,6 +47,16 @@ According to the histogram of profit, the fair odds for a bet on matching birthd
 
 For this, we will mess around with the class size until we get Brownlow's profit to turn out to be fair.
 
+```{r}
+profit=as.numeric()
+for(i in 1:400){
+profit[i]=BrLw(numClass= 28)  
+}
+hist(profit)
+```
+
+According to the histogram of profit, the class size should be around the range of 28-29 in order for Borwnlow's profit to turn out to be fair for a 2:1 odds bet.
+
 3. How much money would Brownlow be expected to end up with if the bets went as described.
 
 
