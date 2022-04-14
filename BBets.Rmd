@@ -60,6 +60,8 @@ According to the histogram of profit, the class size should be around the range 
 3. How much money would Brownlow be expected to end up with if the bets went as described.
 
 
+For this, we want to know how to get a 95% confidence interval for how much money Brownlow would make by doing it this way.
+
 ## Our strategy is to build a Function and the use it to answer the three questions. 
 
 The function will be given a class_size by number of students, odds, and Number_of_times brownlow made the bet.  It will give you back how much Brownlows earnings were. We will use it to answer our three questions below. If you can, improve this function by giving default values to some of its inputs. 
